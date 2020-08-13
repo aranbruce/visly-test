@@ -10,33 +10,30 @@ import {
   findSetVariantProps,
   makeCompositeDefaultProps,
 } from "./_internal_utils";
-import { TextPrimitive } from "./_internal_primitives";
+import {
+  TextPrimitive,
+  ContainerPrimitive,
+  IconPrimitive,
+} from "./_internal_primitives";
 import { ButtonRoot } from "./_internal_button";
 
 const styles = [
   {
     type: "default",
     layers: {
-      HxPKbCp77g: {
+      N8uzR3KC4w: {
         none: {
-          text: "Call to Action",
+          text: "CTA",
+        },
+      },
+      RKYeD7tVFf: {
+        none: {
+          role: "img",
+          src: require("../assets/335f3298-73c2-4b49-87f0-bdd5380a4035@1x.svg"),
+          useMask: true,
         },
       },
     },
-  },
-  {
-    type: "enum",
-    propName: "buttonType",
-    values: [
-      {
-        propValue: "primary",
-        layers: {},
-      },
-      {
-        propValue: "secondary",
-        layers: {},
-      },
-    ],
   },
 ];
 
@@ -45,29 +42,9 @@ const defaultPropValues = [
     type: "default",
     layers: {},
   },
-  {
-    type: "enum",
-    propName: "buttonType",
-    values: [
-      {
-        propValue: "primary",
-        layers: {},
-      },
-      {
-        propValue: "secondary",
-        layers: {},
-      },
-    ],
-  },
 ];
 
-const variantPropTypes = [
-  {
-    type: "enum",
-    propName: "buttonType",
-    propValues: ["primary", "secondary"],
-  },
-];
+const variantPropTypes = [];
 
 export const ButtonContext = createContext(null);
 
@@ -87,29 +64,37 @@ function Button(_props) {
       internal={{
         styles: styles,
         layerId: "root",
-        scope: "57m21SveAo",
+        scope: "PZg7dLeuth",
         activeVariants: activeVariants,
       }}
     >
       {(getStyle) => (
-        <TextPrimitive
-          className={"__visly_reset __visly_scope_57m21SveAo_HxPKbCp77g"}
-          key={"HxPKbCp77g"}
-          text={
-            exists(props.text) ? props.text : getStyle("HxPKbCp77g", "text")
-          }
-        />
+        <ContainerPrimitive
+          className={"__visly_reset __visly_scope_PZg7dLeuth_XTT5obrMD3"}
+          key={"XTT5obrMD3"}
+          addSpacing={true}
+        >
+          <TextPrimitive
+            className={"__visly_reset __visly_scope_PZg7dLeuth_N8uzR3KC4w"}
+            key={"N8uzR3KC4w"}
+            text={
+              exists(props.label) ? props.label : getStyle("N8uzR3KC4w", "text")
+            }
+          />
+          <IconPrimitive
+            className={"__visly_reset __visly_scope_PZg7dLeuth_RKYeD7tVFf"}
+            key={"RKYeD7tVFf"}
+            useMask={getStyle("RKYeD7tVFf", "useMask")}
+            src={
+              exists(props.icon) ? props.icon : getStyle("RKYeD7tVFf", "src")
+            }
+          />
+        </ContainerPrimitive>
       )}
     </ButtonRoot>
   );
 }
 
-Button.__variants = [
-  {
-    name: "buttonType",
-    type: "group",
-    variants: ["primary", "secondary"],
-  },
-];
+Button.__variants = [];
 
 export default Button;

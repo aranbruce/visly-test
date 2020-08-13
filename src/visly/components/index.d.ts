@@ -97,31 +97,22 @@ export const Avatar: {
 export const Button: {
   (
     props: {
-      text?: string;
-      buttonType?: "primary" | "secondary";
+      label?: string;
+      icon?: string;
     } & CommonProps<HTMLDivElement>
   ): JSX.Element;
 };
 export const Card: {
   (
     props: {
-      titleText?: string;
-      bodyText?: string;
+      imageSrc?: string;
+      title?: string;
+      text?: string;
       darkMode?: boolean;
-      PrimaryButton?: React.ReactNode;
-      SecondaryButton?: React.ReactNode;
-      Image?: React.ReactNode;
+      MyButton?: React.ReactNode;
     } & CommonProps<HTMLDivElement>
   ): JSX.Element;
-  Image: {
-    (
-      props: {
-        imageSrc1?: string;
-      } & CommonProps<HTMLDivElement>
-    ): JSX.Element;
-  };
-  PrimaryButton: typeof Button;
-  SecondaryButton: typeof Button;
+  MyButton: typeof Button;
 };
 export const Checkbox: {
   (
@@ -158,24 +149,6 @@ export const LikeButton: {
       icon?: string;
       onChange?: (checked: boolean) => void;
       checked?: boolean;
-    } & CommonProps<HTMLDivElement>
-  ): JSX.Element;
-};
-export const List: {
-  (
-    props: {
-      darkMode?: boolean;
-      Card1?: React.ReactNode;
-      Toggle?: React.ReactNode;
-    } & CommonProps<HTMLDivElement>
-  ): JSX.Element;
-  Card1: typeof Card;
-  Toggle: typeof Toggle;
-};
-export const ProgressBar: {
-  (
-    props: {
-      value?: number;
     } & CommonProps<HTMLDivElement>
   ): JSX.Element;
 };

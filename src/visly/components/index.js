@@ -4,13 +4,10 @@
 export const Avatar = require("./Avatar").default;
 export const Button = require("./Button").default;
 export const Card = require("./Card").default;
-Card.Image = require("./Card.Image").default;
 export const Checkbox = require("./Checkbox").default;
 export const CommentButton = require("./CommentButton").default;
 export const Input = require("./Input").default;
 export const LikeButton = require("./LikeButton").default;
-export const List = require("./List").default;
-export const ProgressBar = require("./ProgressBar").default;
 export const ReshareButton = require("./ReshareButton").default;
 export const Segmented = require("./Segmented").default;
 Segmented.Button = require("./Segmented.Button").default;

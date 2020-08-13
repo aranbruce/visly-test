@@ -5,17 +5,17 @@ require("./fonts.css");
 
 export const accent = {
   fontFamily: "Visly Roboto",
-  fontSize: "18px",
-  fontWeight: 700,
+  fontSize: "14px",
+  fontWeight: 500,
   fontStyle: "normal",
-  lineHeight: "26px",
+  lineHeight: "20px",
 };
 export const body = {
   fontFamily: "Visly Roboto",
   fontSize: "16px",
   fontWeight: 400,
   fontStyle: "normal",
-  lineHeight: "21px",
+  lineHeight: "24px",
 };
 export const bodyLarge = {
   fontFamily: "Visly Roboto",
@@ -26,8 +26,8 @@ export const bodyLarge = {
 };
 export const heading = {
   fontFamily: "Visly Roboto",
-  fontSize: "24px",
-  fontWeight: 700,
+  fontSize: "18px",
+  fontWeight: 500,
   fontStyle: "normal",
-  lineHeight: "36px",
+  lineHeight: "26px",
 };

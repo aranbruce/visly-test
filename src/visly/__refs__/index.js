@@ -43,14 +43,12 @@ export const textstyle = {
 };
 export const component = {
   Avatar: "14c1309e-04d6-4426-b5bf-741031ceb68a",
-  Button: "215624d8-a3e1-4139-928a-11eae36fd386",
-  Card: "f4499e8e-9d9b-4b03-8ae9-f3e8bdc10d8c",
+  Button: "b6b8f4c7-c313-4892-b2b7-60b56e21f17f",
+  Card: "45b6622f-4fce-4f3d-8ace-579d5a3faefe",
   Checkbox: "12f2f79a-efe1-44b5-a6ea-94ebaac3ce59",
   CommentButton: "e8422644-7679-4a4b-a65e-50063492d6f1",
   Input: "50e2110b-155c-4778-a63c-44c9c1c8b4f1",
   LikeButton: "132f9c60-5ba4-4590-8aeb-1e98bbc83328",
-  List: "2984e093-6c8f-4d96-aff1-1b4ee774e648",
-  ProgressBar: "dc74a199-c204-4302-ae8c-9c4ae5906a5a",
   ReshareButton: "1f775434-5b55-49f3-8ea9-9fcee4c6f463",
   Segmented: "b1be7efc-2508-4c36-92d1-ddbb567eba4c",
   Select: "45b37cde-13b4-4c47-ad5e-7ce42f64a2b8",

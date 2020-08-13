@@ -28,9 +28,9 @@
   white-space: nowrap;
   font-family: Visly Roboto;
   font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 26px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
   flex-shrink: 1;
   align-self: auto;
 }
