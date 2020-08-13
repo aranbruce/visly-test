@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/visly-test/static/css/main.0b8c4927.chunk.css",
+    "main.js": "/visly-test/static/js/main.687638e3.chunk.js",
+    "main.js.map": "/visly-test/static/js/main.687638e3.chunk.js.map",
+    "runtime-main.js": "/visly-test/static/js/runtime-main.97a9539e.js",
+    "runtime-main.js.map": "/visly-test/static/js/runtime-main.97a9539e.js.map",
+    "static/js/2.7f792c81.chunk.js": "/visly-test/static/js/2.7f792c81.chunk.js",
+    "static/js/2.7f792c81.chunk.js.map": "/visly-test/static/js/2.7f792c81.chunk.js.map",
+    "index.html": "/visly-test/index.html",
+    "precache-manifest.4869eebea1157dfc7863787b032cd257.js": "/visly-test/precache-manifest.4869eebea1157dfc7863787b032cd257.js",
+    "service-worker.js": "/visly-test/service-worker.js",
+    "static/css/main.0b8c4927.chunk.css.map": "/visly-test/static/css/main.0b8c4927.chunk.css.map",
+    "static/js/2.7f792c81.chunk.js.LICENSE.txt": "/visly-test/static/js/2.7f792c81.chunk.js.LICENSE.txt",
+    "static/media/22ef53ca-3265-49f9-85f5-c00ff038c977@1x.svg": "/visly-test/static/media/22ef53ca-3265-49f9-85f5-c00ff038c977@1x.34dafd9e.svg",
+    "static/media/335f3298-73c2-4b49-87f0-bdd5380a4035@1x.svg": "/visly-test/static/media/335f3298-73c2-4b49-87f0-bdd5380a4035@1x.9dbfa1af.svg",
+    "static/media/5cd79169-4d72-486a-bd71-20cfa0420bb2@1x.svg": "/visly-test/static/media/5cd79169-4d72-486a-bd71-20cfa0420bb2@1x.10a5b071.svg",
+    "static/media/7900b30b-3148-4379-bb23-489f4b637df5@1x.svg": "/visly-test/static/media/7900b30b-3148-4379-bb23-489f4b637df5@1x.0873edba.svg",
+    "static/media/fonts.css": "/visly-test/static/media/d7d2c5b4-4c7b-4efb-9c21-0ef70f800be8.e07df86c.ttf",
+    "static/media/c0d36d31-1367-4c7a-91be-c1ac14e5c3c5@1x.svg": "/visly-test/static/media/c0d36d31-1367-4c7a-91be-c1ac14e5c3c5@1x.2fdb1cc1.svg",
+    "static/media/c6f11592-eb2a-4697-9b7c-6c7c31b99f89@1x.svg": "/visly-test/static/media/c6f11592-eb2a-4697-9b7c-6c7c31b99f89@1x.6acd960f.svg",
+    "static/media/c960c1cc-f05b-4842-972b-c497154e2e5b@1x.svg": "/visly-test/static/media/c960c1cc-f05b-4842-972b-c497154e2e5b@1x.289f0dc4.svg",
+    "static/media/d0171f72-9dbe-4e54-b469-a4432d2beca6@1x.svg": "/visly-test/static/media/d0171f72-9dbe-4e54-b469-a4432d2beca6@1x.343a2b9f.svg",
+    "static/media/fd204fbe-52a7-4ca8-becd-8a04ae285d64@1x.svg": "/visly-test/static/media/fd204fbe-52a7-4ca8-becd-8a04ae285d64@1x.c4f5bcd0.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.97a9539e.js",
+    "static/js/2.7f792c81.chunk.js",
+    "static/css/main.0b8c4927.chunk.css",
+    "static/js/main.687638e3.chunk.js"
+  ]
+}
